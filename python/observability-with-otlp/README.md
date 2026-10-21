@@ -1,3 +1,15 @@
+<!--
+---
+name: "Observability — Agent 365 SDK with manual OTel + manual instrumentation"
+page_type: sample
+languages:
+- python
+products:
+- agent-365
+description: "Instrument a Python agent manually with OpenTelemetry and Agent 365 tracing, with optional Agent 365 S2S export."
+---
+-->
+
 # Observability — Agent 365 SDK with manual OTel + manual instrumentation
 
 ## Optional A365 S2S export
@@ -25,7 +37,7 @@ Absent or empty `roles` are accepted only with `idtyp=app`, or without `idtyp` w
 `idtyp`; any `scp` claim is rejected.
 
 The standalone `observability_token_service.py` adapts the autonomous sample's
-[two-step FMI flow](https://learn.microsoft.com/en-us/entra/agent-id/autonomous-agent-authentication-authorization-flow):
+[two-step FMI flow](https://learn.microsoft.com/entra/agent-id/autonomous-agent-authentication-authorization-flow):
 blueprint client credentials with `fmi_path=agent instance client ID` acquire T1 for
 `api://AzureADTokenExchange/.default`; the instance uses T1 as its client assertion for
 `api://9b975845-388f-4429-889e-eab1ef63949c/.default`. Both grants are

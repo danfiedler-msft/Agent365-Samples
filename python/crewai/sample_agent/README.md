@@ -1,3 +1,15 @@
+<!--
+---
+name: "CrewAI Agent Sample - Python"
+page_type: sample
+languages:
+- python
+products:
+- agent-365
+description: "Build a CrewAI multi-agent weather and driving safety workflow with Agent 365 tracing, notifications, and MCP tools."
+---
+-->
+
 # CrewAI Agent Sample - Python
 
 This sample demonstrates how to build a multi-agent system using CrewAI while integrating with the Microsoft Agent 365 SDK. It mirrors the structure and hosting patterns of the AgentFramework/OpenAI Agent 365 samples, while preserving native CrewAI logic in `src/crew_agent/`.
@@ -13,7 +25,7 @@ This sample demonstrates how to build a multi-agent system using CrewAI while in
 
 This sample uses the [Microsoft Agent 365 SDK for Python](https://github.com/microsoft/Agent365-python).
 
-For comprehensive documentation and guidance on building agents with the Microsoft Agent 365 SDK, including how to add tooling, observability, and notifications, visit the [Microsoft Agent 365 Developer Documentation](https://learn.microsoft.com/en-us/microsoft-agent-365/developer/).
+For comprehensive documentation and guidance on building agents with the Microsoft Agent 365 SDK, including how to add tooling, observability, and notifications, visit the [Microsoft Agent 365 Developer Documentation](https://learn.microsoft.com/microsoft-agent-365/developer/).
 
 ## Prerequisites
 
@@ -288,7 +300,7 @@ For issues, questions, or feedback:
 
 - **CrewAI Documentation**: https://docs.crewai.com
 - **CrewAI GitHub**: https://github.com/joaomdmoura/crewai
-- **Microsoft Agent 365 Documentation**: https://learn.microsoft.com/en-us/microsoft-agent-365/developer/
+- **Microsoft Agent 365 Documentation**: https://learn.microsoft.com/microsoft-agent-365/developer/
 - **Discord**: https://discord.com/invite/X4JWnZnxPb
 
 ## Contributing
